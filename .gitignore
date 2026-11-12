@@ -1,8 +1,9 @@
-build/
+﻿build/
 dist/
 nbbuild/
 nbdist/
 *.class
+*.pdf
 nbproject/private/
 .DS_Store
 Thumbs.db
