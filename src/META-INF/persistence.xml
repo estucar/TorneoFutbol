@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="TorneoDeFutbolPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>modelo.Cancha</class>
+    <class>modelo.Administrador</class>
+    <class>modelo.AdministradorVip</class>
+    <class>modelo.Arbitro</class>
+    <class>modelo.Capitan</class>
+    <class>modelo.Credencial</class>
+    <class>modelo.Equipo</class>
+    <class>modelo.Inscripcion</class>
+    <class>modelo.Jugador</class>
+    <class>modelo.Notificacion</class>
+    <class>modelo.Organizador</class>
+    <class>modelo.Partido</class>
+    <class>modelo.Reclamo</class>
+    <class>modelo.Reporte</class>
+    <class>modelo.ReporteArbitro</class>
+    <class>modelo.ReporteGoleadores</class>
+    <class>modelo.ReportePosicion</class>
+    <class>modelo.ReporteSanciones</class>
+    <class>modelo.Sancion</class>
+    <class>modelo.Torneo</class>
+    <class>modelo.Usuario</class>
+    <class>modelo.HistorialTorneo</class>
+    <class>modelo.Incidente</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/torneo_futbol?createDatabaseIfNotExist=true&amp;zeroDateTimeBehavior=CONVERT_TO_NULL&amp;serverTimezone=America/Argentina/Buenos_Aires"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="esteban290399"/>
+      <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+      <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+    </properties>
+  </persistence-unit>
+</persistence>
