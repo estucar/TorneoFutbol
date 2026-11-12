@@ -10,8 +10,8 @@ import javax.mail.internet.MimeMessage;
 public class ServicioCorreo {
 
     public boolean enviarCorreo(String destinatario, String asunto, String cuerpo) {
-        String remitente = "lautarosalvaojeda04@gmail.com"; 
-        String clave = "lzkx duqa tshz sqkr";
+        String remitente = "tu_correo@correo.com"; 
+        String clave = "tu_clave";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
