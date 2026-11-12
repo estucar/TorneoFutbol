@@ -1,5 +1,5 @@
 # TorneoFutbol
-Aplicación de escritorio desarrollada en Java para la administración de torneos de futbol, inscripciones, control disciplinario, emisión de credenciales y generación de estadísticas. Proyecto desarrollado para la cátedra de Programación Avanzada II (Ingeniería en Informática - UGD).
+Aplicación de escritorio desarrollada en Java para la administración de torneos de futbol, inscripciones, control disciplinario, emisión de credenciales y generación de estadísticas. Proyecto desarrollado por los alumnos Cardozo Esteban y Ojeda Lautaro para la cátedra de Programación Avanzada II (Ingeniería en Informática - UGD).
 
 Tecnologías y Librerías
 - Lenguaje: Java (JDK 8+)
